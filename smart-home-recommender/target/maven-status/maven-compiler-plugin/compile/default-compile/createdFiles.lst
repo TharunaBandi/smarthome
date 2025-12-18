@@ -1,0 +1,13 @@
+com\smarthome\recommender\model\Room.class
+com\smarthome\recommender\service\PlanService.class
+com\smarthome\recommender\dto\PlanResponseDto.class
+com\smarthome\recommender\BrowserLauncher.class
+com\smarthome\recommender\SmartHomeRecommenderApplication.class
+com\smarthome\recommender\repository\RoomRepository.class
+com\smarthome\recommender\repository\PlanRepository.class
+com\smarthome\recommender\config\SecurityConfig.class
+com\smarthome\recommender\dto\PlanRequestDto.class
+com\smarthome\recommender\controller\PlanController.class
+com\smarthome\recommender\dto\RoomDto.class
+com\smarthome\recommender\controller\SigninController.class
+com\smarthome\recommender\model\Plan.class
