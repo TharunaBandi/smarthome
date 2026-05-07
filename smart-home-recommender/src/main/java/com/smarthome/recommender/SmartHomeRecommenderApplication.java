@@ -9,4 +9,4 @@ public class SmartHomeRecommenderApplication {
     public static void main(String[] args) {
         SpringApplication.run(SmartHomeRecommenderApplication.class, args);
     }
-}
+}:
