@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Home Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="app-title">Smart Home Planner</h1>
+
+<div class="main-row">
+    <!-- LEFT: requirements card -->
+    <div class="card requirements">
+        <h2>Enter Requirements</h2>
+
+        <label>Bedrooms:
+            <input type="number" id="bedrooms" min="1" max="3" value="2">
+        </label>
+
+        <label>Bathrooms:
+            <input type="number" id="bathrooms" min="1" max="1" value="1">
+        </label>
+
+        <label>Kitchens:
+            <input type="number" id="kitchens" min="1" max="1" value="1">
+        </label>
+
+        <label>Living rooms:
+            <input type="number" id="livingRooms" min="1" max="1" value="1">
+        </label>
+
+        <button id="generateButton">Generate Plan</button>
+    </div>
+
+    <!-- RIGHT: generated plan card -->
+    <div class="card plan-card">
+        <div class="plan-header">Generated Plan</div>
+
+        <div id="generated-plan" class="plan-box">
+            <button id="prevButton" class="nav-button">&lt;</button>
+
+            <img id="plan-image"
+                 src=""
+                 alt="Floor plan"
+                 class="plan-main-image"
+                 style="display:none;">
+
+            <button id="nextButton" class="nav-button">&gt;</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
