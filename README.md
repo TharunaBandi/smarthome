@@ -6,7 +6,11 @@ A Spring Boot web application that recommends house plans (1BHK–3BHK) and disp
 
 ## 📸 Screenshots
 
-> _Add screenshots of the home page, input form, and 3D layout display here._
+##Login
+![Login Page](login.png)
+
+##Dashboard
+![smarthome Dashboard](dashboard.png)
 
 ---
 
