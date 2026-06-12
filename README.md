@@ -7,10 +7,10 @@ A Spring Boot web application that recommends house plans (1BHK–3BHK) and disp
 ## 📸 Screenshots
 
 ##Login
-![Login Page](login.png)
+![Login Page](smarthome-login(1).png)
 
 ##Dashboard
-![smarthome Dashboard](dashboard.png)
+![smarthome Dashboard](smarthome.png)
 
 ---
 
